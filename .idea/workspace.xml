@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/git/calculator/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Adding Calulator class and unit test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/git/calculator/CalculatorParameterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +58,22 @@
       <recent name="ec.edu.epn.git.calculator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculatorParameterTest">
+    <configuration name="CalculatorParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.git.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.git.calculator" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorParameterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-git" />
       <extension name="coverage">
@@ -73,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorParameterTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
@@ -85,8 +104,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670538418790</updated>
-      <workItem from="1670538420628" duration="914000" />
+      <workItem from="1670538420628" duration="1950000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Calulator class and unit test">
+      <created>1670539603156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670539603156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Calulator class and unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Calulator class and unit test" />
   </component>
 </project>
