@@ -18,8 +18,8 @@ public class CalculatorExecute{
         double division=c.division(20,4);
         System.out.println("c.division(20,4)= "+ division);
         System.out.println("\n == Multiplicacion  == ");
-        double multiplicacion=c.division(100,2);
-        System.out.println("c.division(20,4)= "+ multiplicacion);
+        double multiplicacion=c.multiplicacion(100,2);
+        System.out.println("c.multiplicacion(100,2)= "+ multiplicacion);
 
 
 
