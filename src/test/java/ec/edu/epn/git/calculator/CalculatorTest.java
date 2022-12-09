@@ -38,6 +38,12 @@ public class CalculatorTest {
         assertEquals(1,c.division(1,0),0);
     }
 
+    @Test
+    public void given_two_other_integers_when_subtracction_then_ok(){
+        System.out.println("Test 2.1 - Practica 3 ");
+        assertEquals(20,c.addition(6,14));
+    }
+
 
 
     @Test(timeout =150)
