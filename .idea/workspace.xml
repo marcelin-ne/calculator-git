@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Este es un cambio en la clase calculadoExceute">
+    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Crear test de funcion multiplicacion en calculatorclass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/git/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/git/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExecute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExecute.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/git/calculator/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/git/calculator/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
       <recent name="ec.edu.epn.git.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.given_two_other_integers_when_subtracction_then_ok">
+  <component name="RunManager" selected="Application.CalculatorExecute">
     <configuration name="CalculatorExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorExecute" />
       <module name="calculator-git" />
@@ -103,6 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.given_two_other_integers_when_multiplicacion_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.git.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.git.calculator" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="given_two_other_integers_when_multiplicacion_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.given_two_other_integers_when_subtracction_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-git" />
       <extension name="coverage">
@@ -121,8 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_subtracction_then_ok" />
         <item itemvalue="Application.CalculatorExecute" />
+        <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_multiplicacion_then_ok" />
+        <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_subtracction_then_ok" />
         <item itemvalue="JUnit.CalculatorParameterTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -136,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670538418790</updated>
-      <workItem from="1670538420628" duration="7161000" />
+      <workItem from="1670538420628" duration="8132000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Calulator class and unit test">
       <created>1670539603156</created>
@@ -173,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670559373604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Agregar una prueba de Suma en test CalculatorTest">
+      <created>1670561216068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670561216068</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Crear funcion de multiplicacion en clase Calculator">
+      <created>1670561568753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670561568753</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Crear test de funcion multiplicacion en calculatorclass">
+      <created>1670561970197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670561970197</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +236,9 @@
     <MESSAGE value="se agrego Calculador Exceute &#10;Se Agrego Archiv . jar" />
     <MESSAGE value="Agregar Archivos extra" />
     <MESSAGE value="Este es un cambio en la clase calculadoExceute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Este es un cambio en la clase calculadoExceute" />
+    <MESSAGE value="Agregar una prueba de Suma en test CalculatorTest" />
+    <MESSAGE value="Crear funcion de multiplicacion en clase Calculator" />
+    <MESSAGE value="Crear test de funcion multiplicacion en calculatorclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crear test de funcion multiplicacion en calculatorclass" />
   </component>
 </project>
