@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="se agrego Calculador Exceute &#10;Se Agrego Archiv . jar" />
+    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Agregar Archivos extra">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExcute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/calculator-git-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/calculator-git-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExcute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExcute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorParameterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorParameterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorParameterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorParameterTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="module" />
+      <option value="directory" />
     </option>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -54,9 +65,9 @@
       <recent name="ec.edu.epn.git.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorExcute">
-    <configuration name="CalculatorExcute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorExcute" />
+  <component name="RunManager" selected="Application.CalculatorExecute">
+    <configuration name="CalculatorExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorExecute" />
       <module name="calculator-git" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorExcute" />
+        <item itemvalue="Application.CalculatorExecute" />
         <item itemvalue="JUnit.CalculatorParameterTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -114,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670538418790</updated>
-      <workItem from="1670538420628" duration="4496000" />
+      <workItem from="1670538420628" duration="5975000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Calulator class and unit test">
       <created>1670539603156</created>
@@ -137,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670557641378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Agregar Archivos extra">
+      <created>1670557764052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670557764052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +176,7 @@
     <MESSAGE value="Adding Calulator class and unit test" />
     <MESSAGE value="Supporting test with parameters" />
     <MESSAGE value="se agrego Calculador Exceute &#10;Se Agrego Archiv . jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrego Calculador Exceute &#10;Se Agrego Archiv . jar" />
+    <MESSAGE value="Agregar Archivos extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar Archivos extra" />
   </component>
 </project>
