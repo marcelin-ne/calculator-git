@@ -15,10 +15,10 @@ public class CalculatorExecute {
         int subtraction = c.subtraction(7, 1);
         System.out.println("c.subtracction(7,1) =" + subtraction);
         System.out.println("\n == Division  == ");
-        double division = c.division(20, 4);
+        double division = c.divide(20, 4);
         System.out.println("c.division(20,4)= " + division);
         System.out.println("\n == Multiplicacion  == ");
-        double multiplication = c.multiplicacion(100, 2);
+        double multiplication = c.multiplicate(100, 2);
         System.out.println("c.multiplication(100,2)= " + multiplication);
 
 

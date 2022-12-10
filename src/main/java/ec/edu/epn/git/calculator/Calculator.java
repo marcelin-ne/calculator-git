@@ -12,12 +12,11 @@ public class Calculator {
         return a-b;
     }
 
-    public double division(int a, int b){
+    public double divide(int a, int b){
         return a/b;
     }
 
-
-    public double multiplicacion(int a, int b){
+    public double multiplicate(int a, int b){
         return a*b;
     }
 
@@ -29,14 +28,8 @@ public class Calculator {
         }
     }
 
-
-    public int getAnswer() {
-        return answer;
-    }
-
     public void setAnswer(int answer){
         this.answer=answer;
-
     }
 
 }

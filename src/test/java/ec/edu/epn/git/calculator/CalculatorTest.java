@@ -35,7 +35,7 @@ public class CalculatorTest {
     @Test(expected = ArithmeticException.class)
     public void given_two_integers_when_subtraction_then_ok(){
         System.out.println("Test 3");
-        assertEquals(1,c.division(1,0),0);
+        assertEquals(1,c.divide(1,0),0);
     }
 
 
@@ -50,7 +50,7 @@ public class CalculatorTest {
     @Test
     public void given_two_other_integers_when_multiplicacion_then_ok(){
         System.out.println("Test 5");
-        assertEquals(12, c.multiplicacion(6,2),0.0);
+        assertEquals(12, c.multiplicate(6,2),0.0);
 
     }
 
