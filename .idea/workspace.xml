@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Cambios en CalculatorExecute y cargar nuevo executable Jar de carpeta Target despues de usar los goals de Maven">
+    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Primer commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExecute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/CalculatorExecute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/git/calculator/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   </component>
   <component name="ChangesViewManager">
     <option name="groupingKeys">
-      <option value="module" />
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -28,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,7 +55,8 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -153,6 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670538418790</updated>
       <workItem from="1670538420628" duration="8650000" />
+      <workItem from="1670705318820" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Calulator class and unit test">
       <created>1670539603156</created>
@@ -244,6 +254,7 @@
     <MESSAGE value="Crear funcion de multiplicacion en clase Calculator" />
     <MESSAGE value="Crear test de funcion multiplicacion en calculatorclass" />
     <MESSAGE value="Cambios en CalculatorExecute y cargar nuevo executable Jar de carpeta Target despues de usar los goals de Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en CalculatorExecute y cargar nuevo executable Jar de carpeta Target despues de usar los goals de Maven" />
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
 </project>
