@@ -57,7 +57,7 @@ public class CalculatorTest {
     @Test
     public void given_one_double_when_squared_root_then_ok() {
         System.out.println("Test 6");
-        assertEquals(4, c.squareRoot(16));
+        assertEquals(4.0, c.squareRoot(16.0),0.0);
     }
 
     @After

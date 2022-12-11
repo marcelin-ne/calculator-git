@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Format test code">
+    <list default="true" id="28153c53-6b22-4425-9b57-b7dd3d48ff31" name="Changes" comment="Adding Squared Root Operaton in Calculator and Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/calculator-git-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/calculator-git-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorParameterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorParameterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.git.calculator.CalculatorTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorParameterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorParameterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.git.calculator.CalculatorTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +66,7 @@
       <recent name="ec.edu.epn.git.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorExecute">
-    <configuration name="CalculatorExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorExecute" />
-      <module name="calculator-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.git.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.given_one_double_when_squared_root_then_ok">
     <configuration name="CalculatorParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-git" />
       <extension name="coverage">
@@ -116,6 +93,22 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.git.calculator" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.given_one_double_when_squared_root_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.git.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.git.calculator" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="given_one_double_when_squared_root_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_subtracction_then_ok" />
+        <item itemvalue="JUnit.CalculatorTest.given_one_double_when_squared_root_then_ok" />
         <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_multiplicacion_then_ok" />
+        <item itemvalue="JUnit.CalculatorTest.given_two_other_integers_when_subtracction_then_ok" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorParameterTest" />
-        <item itemvalue="Application.CalculatorExecute" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670562501386</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Squared Root Operaton in Calculator and Test">
+      <created>1670719677935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670719677935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +262,7 @@
     <MESSAGE value="Crear funcion de multiplicacion en clase Calculator" />
     <MESSAGE value="Crear test de funcion multiplicacion en calculatorclass" />
     <MESSAGE value="Cambios en CalculatorExecute y cargar nuevo executable Jar de carpeta Target despues de usar los goals de Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en CalculatorExecute y cargar nuevo executable Jar de carpeta Target despues de usar los goals de Maven" />
+    <MESSAGE value="Adding Squared Root Operaton in Calculator and Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Squared Root Operaton in Calculator and Test" />
   </component>
 </project>
