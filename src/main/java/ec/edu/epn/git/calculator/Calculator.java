@@ -1,5 +1,5 @@
 package ec.edu.epn.git.calculator;
-
+import java.lang.Math;
 public class Calculator {
 
     private int answer;
@@ -19,6 +19,10 @@ public class Calculator {
 
     public double multiplicacion(int a, int b){
         return a*b;
+    }
+
+    public double squareRoot(double a){
+        return Math.sqrt(a);
     }
 
     public void timeout(int time){

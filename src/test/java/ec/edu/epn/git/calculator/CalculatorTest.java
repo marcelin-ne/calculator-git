@@ -54,6 +54,12 @@ public class CalculatorTest {
 
     }
 
+    @Test
+    public void given_one_double_when_squared_root_then_ok() {
+        System.out.println("Test 6");
+        assertEquals(4, c.squareRoot(16));
+    }
+
     @After
     public void tearDown(){
         System.out.println("tearDown()");
@@ -66,5 +72,6 @@ public class CalculatorTest {
     public static void tearDownClass(){
         System.out.println("tearDownClass");
     }
+
 
 }
